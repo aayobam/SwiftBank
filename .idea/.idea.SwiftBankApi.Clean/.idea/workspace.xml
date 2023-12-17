@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ec8b2c2-fe33-416a-9264-1f656fa430dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SwiftBank.Clean/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SwiftBank.Clean/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SwiftBank.Clean/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SwiftBank.Clean/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Application/SwiftBank.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Clean.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/Entities/Account.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/Entities/ApplicationUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/Entities/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/Entities/Loan.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/Entities/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBank.Domain/SwiftBank.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/ApplicationServiceRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/IAccountRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/IGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/IRoleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/ITransactionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Features/User/Commands/User/CreateUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Features/User/Commands/User/UpdateUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Features/User/Queries/User/GetAllUsers/GetUsersQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Features/User/Queries/User/GetAllUsers/GetUsersQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/Features/User/Queries/User/GetAllUsers/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/MappingProfiles/AutomapperProfiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Application/SwiftBankApi.Application.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/Account.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/Common/BaseClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/SwiftBankApi.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwiftBankApi.Domain/VerificationOtp.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SwiftBankApi.Application/Contracts/Persistence/IUserRepository.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YwIO83JFqYl2lgg747kpS85eA6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/home/baytech/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/home/baytech/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/home/baytech/.local/share/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ec8b2c2-fe33-416a-9264-1f656fa430dd" name="Changes" comment="" />
+      <created>1701430179739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701430179739</updated>
+      <workItem from="1701430180876" duration="16748000" />
+      <workItem from="1702792615972" duration="978000" />
+      <workItem from="1702823997380" duration="2568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
