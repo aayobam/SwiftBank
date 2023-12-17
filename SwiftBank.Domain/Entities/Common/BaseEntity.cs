@@ -1,6 +1,6 @@
-namespace SwiftBank.Domain.Entities;
+namespace SwiftBank.Domain.Entities.Common;
 
-public class BaseEntity
+public abstract class BaseEntity
 {
     public Guid Id { get; set; }
     public DateTime DateCreated { get; set; }

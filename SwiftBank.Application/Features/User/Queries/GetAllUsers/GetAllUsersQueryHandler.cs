@@ -4,12 +4,12 @@ using SwiftBank.Application.Contracts.Persistence;
 
 namespace SwiftBank.Application.Features.User.Queries.GetAllUsers;
 
-public class GellAllUsersQueryHandler: IRequestHandler<GetAllUsersQuery, List<UserDto>>
+public class GetAllUsersQueryHandler: IRequestHandler<GetAllUsersQuery, List<UserDto>>
 {
     private readonly IMapper _mapper;
     private readonly IUserRepository _userRepository;
 
-    public GellAllUsersQueryHandler(IMapper mapper, IUserRepository userRepository)
+    public GetAllUsersQueryHandler(IMapper mapper, IUserRepository userRepository)
     {
         _mapper = mapper;
         _userRepository = userRepository;
@@ -17,6 +17,8 @@ public class GellAllUsersQueryHandler: IRequestHandler<GetAllUsersQuery, List<Us
     
     public async Task<List<UserDto>> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        var users = await _userRepository.GetAllAsync();
+        var data = _mapper.Map<List<UserDto>>(users);
+        return data;
     }
 }

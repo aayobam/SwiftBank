@@ -1,6 +1,8 @@
+using MediatR;
+
 namespace SwiftBank.Application.Features.User.Queries.GetAllUsers;
 
-public class GetAllUsersQuery
+public class GetAllUsersQuery : IRequest<List<UserDto>>
 {
     
 }

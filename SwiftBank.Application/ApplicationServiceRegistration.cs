@@ -1,10 +1,17 @@
+using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace SwiftBank.Application;
 
-public class ServiceExtensions
+public static class ApplicationServiceRegistration
 {
-    public static IServiceProvider ServiceExtensions(this IServiceProvider services)
+    public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
-        services.
+        services.AddAutoMapper(Assembly.GetExecutingAssembly());
+        services.AddMediatR(config =>
+        {
+            config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+        });
         return services;
     }
 }

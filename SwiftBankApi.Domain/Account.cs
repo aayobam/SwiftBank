@@ -1,4 +1,4 @@
-namespace SwiftBankApi.Domain.User;
+namespace SwiftBankApi.Domain;
 
 public class Account
 {
