@@ -1,6 +1,7 @@
 using AutoMapper;
 using MediatR;
 using SwiftBank.Application.Contracts.Persistence;
+using SwiftBank.Application.Exceptions;
 using SwiftBank.Application.Features.User.Queries.GetAllUsers;
 
 namespace SwiftBank.Application.Features.User.Queries.GetUserDetails;
@@ -18,7 +19,11 @@ public class GetUserDetailsQueryHandler : IRequestHandler<GetUserDetailsQuery, U
     
     public async Task<UserDto> Handle(GetUserDetailsQuery request, CancellationToken cancellationToken)
     {
-        var userDetail = await _userRepository.GetByIdAsync(request.id);
+        var userDetail = await _userRepository.GetByIdAsync(request.Id);
+        if (userDetail == null)
+        {
+            throw new NotFoundException(nameof(Domain.Entities.User), request.Id);
+        }
         var data = _mapper.Map<UserDto>(userDetail);
         return data;
     }

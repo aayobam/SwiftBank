@@ -3,4 +3,4 @@ using SwiftBank.Application.Features.User.Queries.GetAllUsers;
 
 namespace SwiftBank.Application.Features.User.Queries.GetUserDetails;
 
-public record GetUserDetailsQuery(string id) : IRequest<UserDto>;
+public record GetUserDetailsQuery(string Id) : IRequest<UserDto>;
